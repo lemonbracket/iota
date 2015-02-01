@@ -1,1 +1,1 @@
-Series of JavaScript utilities
+Series of small (iota) JavaScript utilities
