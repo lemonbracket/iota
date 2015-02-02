@@ -12,6 +12,6 @@
  * @param {Number} max The upper boundary of the output range
  * @returns A number in the range [min, max]
  */
-module.exports = function (num, min, max) {
+module.exports = function clamp (num, min, max) {
   return Math.min(Math.max(num, min), max);
 };
