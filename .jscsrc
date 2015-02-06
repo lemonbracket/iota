@@ -6,7 +6,7 @@
   "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
-  "disallowNewlineBeforeBlockStatements": true,
+  "disallowNewlineBeforeBlockStatements": false,
   "disallowPaddingNewlinesBeforeKeywords": true,
   "disallowPaddingNewlinesInBlocks": true,
   "excludeFiles": ["node_modules/**"]
