@@ -6,7 +6,7 @@
  * @return {String}
  */
 module.exports = function capitalize (source) {
-	if (Object.prototype.toString.call('test').slice(8, -1) !== 'String') {
+	if (Object.prototype.toString.call(source).slice(8, -1) !== 'String') {
 		throw new Error('String expected');
 	}
 
