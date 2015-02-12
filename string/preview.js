@@ -10,16 +10,15 @@
  * @return {String}
  */
 module.exports = function preview (source, limit, opts) {
-	if (!source) {
-		console.warn('source string expected');
-		return;
+	if (Object.prototype.toString.call('test').slice(8, -1) !== 'String') {
+		throw new Error('String expected');
 	}
 
 	limit = limit || 0;
 	opts = opts || {};
 	var end = opts.end || '...';
 
-	if (!limit || source.length < limit) return source;
+	if (source.length < limit) return source;
 
 	if (opts.truncate) return source.slice(0, limit - end.length) + end;
 
