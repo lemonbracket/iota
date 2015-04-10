@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = {
-  number: require('./number')
+  number: require('./number'),
+  string: require('./string')
 };
